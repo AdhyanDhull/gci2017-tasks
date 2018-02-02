@@ -1,0 +1,26 @@
+body, code { font-size: 1em; font-family: 'Source Code Pro', monospace; color: #586e85; line-height: 1.5; }
+
+body { max-width: 40em; margin: 2em auto; text-align: center; }
+
+a { color: DODGERBLUE; transition: all .2s ease; border-bottom: 2px solid rgba(235, 238, 241, 0); }
+a:hover { border-bottom-color: #ebeef1; color: #0077ea; }
+
+h1, h2, h3, h4, h5, h6 { color: #2d445a; }
+
+h1 { font-size: 2em; }
+
+h2 { font-size: 1.25em; }
+
+p { margin: 0; }
+
+p + p { margin-top: 1em; }
+
+code { background: #fafbfc; border: thin solid #ebeef1; border-radius: 2px; padding: 1px 2px 3px 2px; }
+
+.projects { margin: 2em 0 1em; text-align: left; }
+
+.project { padding: 1.25em 1.5em; margin: 0 -.5em; border-top: thin solid #eee; }
+.project h2 { margin-top: 0; margin-bottom: .4em; }
+.project h2:before { content: '\261E'; color: #666; margin-right: .5em; }
+
+footer { background: #fafbfc; padding: 2em; }
